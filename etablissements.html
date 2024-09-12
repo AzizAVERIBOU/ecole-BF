@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Établissements - Écoles Préparatoires</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+    <header class="parallax-3d">
+        <h1 class="depth-2">Établissements des Écoles Préparatoires</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="filieres.html"><i class="fas fa-graduation-cap"></i> Filières</a></li>
+            <li><a href="etablissements.html"><i class="fas fa-university"></i> Établissements</a></li>
+            <li><a href="vie-etudiante.html"><i class="fas fa-users"></i> Vie Étudiante</a></li>
+            <li><a href="sujets.html"><i class="fas fa-book"></i> Sujets</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="liste-etablissements" class="card-3d">
+            <h2 class="depth-1">Nos Établissements</h2>
+            <p>Découvrez la liste de nos écoles préparatoires...</p>
+        </section>
+        <section id="carte-etablissements" class="card-3d">
+            <h2 class="depth-1">Carte des Établissements</h2>
+            <p>Une carte interactive de nos établissements sera affichée ici...</p>
+        </section>
+        <section id="infos-pratiques" class="card-3d">
+            <h2 class="depth-1">Informations Pratiques</h2>
+            <p>Informations sur les journées portes ouvertes, contacts, etc...</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Portail des Écoles Préparatoires</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujets - Écoles Préparatoires</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+    <header class="parallax-3d">
+        <h1 class="depth-2">Sujets d'Examens des Écoles Préparatoires</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="filieres.html"><i class="fas fa-graduation-cap"></i> Filières</a></li>
+            <li><a href="etablissements.html"><i class="fas fa-university"></i> Établissements</a></li>
+            <li><a href="vie-etudiante.html"><i class="fas fa-users"></i> Vie Étudiante</a></li>
+            <li><a href="sujets.html"><i class="fas fa-book"></i> Sujets</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Sujets d'Examens</h2>
+        <p>Vous trouverez ici une sélection de sujets d'examens des années précédentes pour vous aider dans votre préparation.</p>
+        <ul>
+            <li><a href="#">Sujet de Mathématiques 2022</a></li>
+            <li><a href="#">Sujet de Physique 2022</a></li>
+            <li><a href="#">Sujet de Chimie 2022</a></li>
+            <li><a href="#">Sujet de Sciences de l'Ingénieur 2022</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2023 Portail des Écoles Préparatoires</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
